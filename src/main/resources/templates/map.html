@@ -9,19 +9,14 @@
 
     <!-- kakao map api -->
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e4cee0c9bedd218ffaa36fcbd550420a"></script>
+
 </head>
 
 <body>
 <div id="map"></div>
-<script>
-    const container = document.getElementById('map');
-    const options = {
-        center: new kakao.maps.LatLng(33.450701, 126.570667),
-        level: 3
-    };
 
-    const map = new kakao.maps.Map(container, options);
-</script>
+<!-- import js -->
+<script type="text/javascript" th:src="@{/js/map.js}"></script>
 
 </body>
 </html>
