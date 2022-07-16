@@ -8,4 +8,4 @@ level: 4
 };
 
 // 지도
-const map = new kak정
+const map = new kakao.maps.Map(container, options);
